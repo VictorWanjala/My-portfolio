@@ -14,9 +14,16 @@ function Home() {
             With a strong foundation in problem-solving and a love for clean, efficient design, 
             I bring creative solutions to life in the digital world.
           </p>
-          <LinkedIn/>
-          <Email/>
-          <GitHub/>
+          <a href="https://www.linkedin.com/in/wanjala-victor-3aa620129/" target="_blank" rel="noopener noreferrer">
+          <LinkedIn />
+          </a>
+          <a href="mailto:wanjala94vic@gmail.com">
+          <Email />
+          </a>
+          <a href="https://github.com/VictorWanjala" target="_blank" rel="noopener noreferrer">
+            <GitHub/>
+            </a>
+          
         </div>
 
       </div>

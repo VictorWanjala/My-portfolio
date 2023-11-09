@@ -11,7 +11,7 @@ function Experience() {
         <VerticalTimelineElement 
         className='vertical-timeline-element--education'
         date='June 2023 - December 2023'
-        iconStyle={{background:'#3e497a', color:'#fff'}}
+        iconStyle={{background:'#161e36', color:'#fff'}}
         icon={<School/>}
         >
           <h3 className='vertical-timeline-element-title'>
@@ -21,7 +21,7 @@ function Experience() {
         <VerticalTimelineElement 
         className='vertical-timeline-element--education'
         date='September 2022 - April 2023'
-        iconStyle={{background:'#3e497a', color:'#fff'}}
+        iconStyle={{background:'#161e36', color:'#fff'}}
         icon={<School/>}
         >
           <h3 className='vertical-timeline-element-title'>

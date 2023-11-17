@@ -29,6 +29,40 @@ function Experience() {
             <p>Android Software Development</p>
         </VerticalTimelineElement>
 
+        <VerticalTimelineElement 
+        className='vertical-timeline-element--education'
+        date='January 2013 - November 2017'
+        iconStyle={{background:'#161e36', color:'#fff'}}
+        icon={<School/>}
+        >
+          <h3 className='vertical-timeline-element-title'>
+            University of Eldoret
+         </h3>
+            <p>Environmental Science</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement 
+        className='vertical-timeline-element--education'
+        date=''
+        iconStyle={{background:'#161e36', color:'#fff'}}
+        icon={<School/>}
+        >
+          <h3 className='vertical-timeline-element-title'>
+         </h3>
+            <p></p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement 
+        className='vertical-timeline-element--education'
+        date=''
+        iconStyle={{background:'#161e36', color:'#fff'}}
+        icon={<School/>}
+        >
+          <h3 className='vertical-timeline-element-title'>
+         </h3>
+            <p></p>
+        </VerticalTimelineElement>
+
 
       
       </VerticalTimeline>

@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='about'>
-        <h2>Hello, I'm Victor Wanjala</h2>
+        <h2>Hi, I'm Victor Wanjala</h2>
         <div className='prompt'>
           <p>I'm a passionate software developer dedicated to crafting innovative solutions through code. 
             With a strong foundation in problem-solving and a love for clean, efficient design, 

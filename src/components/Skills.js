@@ -16,7 +16,6 @@ function Skills() {
                     <ul>
                         <li>ReactJS</li>
                         <li>Node.js</li>
-                        <li>Django</li>
                         <li>Flask</li>
                     </ul>
                 <h2>Web Technologies</h2>

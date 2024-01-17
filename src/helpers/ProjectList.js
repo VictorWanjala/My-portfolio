@@ -3,6 +3,7 @@ import OneStop from '../assets/OneStopBuild.png'
 import Pizza from '../assets/pizza.png'
 import tenantpal from '../assets/tenantpal.png'
 import Tamasha from '../assets/Tamasha.png'
+import iRecipe from '../assets/iRecipe.png'
 
 export const projectList = [
     {
@@ -44,6 +45,14 @@ export const projectList = [
         technologies: 'ReactJs, Python Flask, CSS, PostgreSQL',
         github: 'https://github.com/VictorWanjala',
         liveDemo: 'https://tiketi-tamasha-client.vercel.app/'
+
+      },
+      {
+        name: 'iRecipe',
+        image:  iRecipe,
+        technologies: 'ReactJs, Python Flask, CSS, PostgreSQL',
+        github: 'https://github.com/VictorWanjala/irecipe',
+        liveDemo: 'https://irecipe-fxe2yxh5n-victorwanjala.vercel.app/'
 
       },
    

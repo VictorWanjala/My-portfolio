@@ -1,36 +1,45 @@
 
 .skills-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    margin-bottom: 10px; 
-  }
-  
-  .skills-card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 100px;
-    width: 800px; 
-    height: 500px;
-    text-align: center;
-    margin: 20px 0;
-    
-  }
-  
-  .skills-card h2 {
-    color: #333;
-  }
-  
-  .skills-card ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .skills-card li {
-    margin: 5px 0;
-    color: #555;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.skills-card {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.skills-card h2 {
+  color: #161e36;
+  margin-bottom: 10px;
+}
+
+.list-group {
+  padding: 0;
+}
+
+.list-group-item {
+  background-color: #1b2543; /* Bootstrap's primary color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.list-group-item:last-child {
+  margin-bottom: 0;
+}
+
+.list-group-item:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
   
   

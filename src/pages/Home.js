@@ -10,9 +10,11 @@ function Home() {
         <div className='col-md-8'>
           <h2>Hello, I'm Victor Wanjala</h2>
           <p className='lead'>
-            I'm a passionate software developer dedicated to crafting innovative solutions through code. With a strong
-            foundation in problem-solving and a love for clean, efficient design, I bring creative solutions to life
-            in the digital world.
+          I'm a passionate software developer dedicated to crafting innovative solutions through code. 
+  With a strong foundation in problem-solving and a love for clean, efficient design, 
+  I bring creative solutions to life in the digital world. 
+  My commitment to continuous learning and staying updated with the latest technologies 
+  empowers me to tackle challenges and deliver high-quality software products.
           </p>
         </div>
         <div className='col-md-4'>

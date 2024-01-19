@@ -1,12 +1,12 @@
 
 
 .container-fluid.home {
-  padding: 50px;
+  padding: 20px;
   background-color: #f8f9fa; /* Light gray background */
 }
 
 .row.about {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .about {
@@ -15,14 +15,15 @@
   align-items: center;
   text-align: center;
   color: black;
-  padding: 70px 0; /* Adjusted padding */
+  padding: 60px 0; 
+  
 }
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 60px;
+  font-size: 52px;
   color: #1b2543;
-  height: 130px;
+  height: 90px;
   margin-bottom: 40px; /* Added margin bottom */
 }
 

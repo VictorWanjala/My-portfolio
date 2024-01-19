@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Skills.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Skills() {
   return (

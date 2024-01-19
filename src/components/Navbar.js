@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import '../styles/Navbar.css'
 import ReorderIcon from '@mui/icons-material/Reorder'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Navbar() {
     const [expandNavbar, setexpandNavbar] =useState(false)

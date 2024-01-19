@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import { projectList } from '../helpers/ProjectList';
 import { GitHub } from '@mui/icons-material';
 import '../styles/ProjectDisplay.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function ProjectDisplay() {
     const { id } = useParams();

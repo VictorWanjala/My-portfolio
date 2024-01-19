@@ -4,6 +4,8 @@ import Pizza from '../assets/pizza.png'
 import tenantpal from '../assets/tenantpal.png'
 import Tamasha from '../assets/Tamasha.png'
 import iRecipe from '../assets/iRecipe.png'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export const projectList = [
     {

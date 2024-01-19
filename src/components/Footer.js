@@ -3,6 +3,8 @@ import { Twitter } from '@mui/icons-material'
 import { LinkedIn } from '@mui/icons-material'
 import { Email } from '@mui/icons-material'
 import '../styles/Footer.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Footer() {
   return (

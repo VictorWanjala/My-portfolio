@@ -1,0 +1,41 @@
+
+.vertical-timeline-element-content {
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #ddd; /* Border color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for each element */
+  }
+  
+  .vertical-timeline-element-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #004080; /* Deep Blue theme color */
+  }
+  
+  .vertical-timeline-element-date {
+    font-size: 1rem;
+    color: #6c757d; /* Gray color for date */
+  }
+  
+  .vertical-timeline-element p {
+    font-size: 1.2rem;
+    color: #343a40; /* Dark gray color for description */
+  }
+  
+  .vertical-timeline-element--education {
+    border: 2px solid #004080; /* Border color for education elements */
+  }
+  
+  .vertical-timeline-element--education .vertical-timeline-element-content {
+    background-color: #ffffff; /* White background for education elements */
+  }
+  
+  .vertical-timeline-element-icon {
+    background-color: #004080; /* Deep Blue theme color for icons */
+  }
+  
+  .vertical-timeline .vertical-timeline-element {
+    margin-bottom: 20px; /* Adjusted margin between timeline elements */
+  }
+  

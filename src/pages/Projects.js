@@ -2,6 +2,8 @@ import React from 'react'
 import ProjectItem from '../components/ProjectItem'
 import { projectList } from '../helpers/ProjectList'
 import '../styles/Projects.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Projects() {
   return (

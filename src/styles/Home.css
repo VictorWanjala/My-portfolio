@@ -1,83 +1,55 @@
-.home {
-  width: 100%;
-  align-items: center;
-  font-family: "Arial", sans-serif;
-  color: #161e36;
-  padding-top: 1px;
-  
-  
+
+
+.container-fluid.home {
+  padding: 50px;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.row.about {
+  margin-top: 20px;
 }
 
 .about {
-  width: 100%;
-  height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #161e36;
-  color: #f0f0f0;
+  color: black;
+  padding: 70px 0; /* Adjusted padding */
 }
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   color: #ceb737;
-  height: 50px;
+  height: 130px;
+  margin-bottom: 40px; /* Added margin bottom */
 }
 
 .about .prompt {
-  width: 40%;
+  width: 60%; /* Adjusted width */
   font-size: 30px;
+  margin-bottom: 30px;
 }
+
+.about p {
+  font-size: 1.7rem;
+  margin-bottom: 10px; /* Increased margin bottom */
+}
+
 .prompt svg {
   font-size: 60px;
   margin: 5px;
   color: white;
 }
 
-.skills {
-  font-size: 35px;
-  width: 100%;
+.social-icons {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
+  margin-top: 30px;
 }
 
-.skills h1 {
-  color: #161e36;
+.social-icons a {
+  margin-bottom: 10px;
 }
 
-.skills .list {
-  list-style: none;
-  width: 60%;
-}
-
-.list span {
-  font-size: 20px;
-}
-
-@media only screen and (max-width: 600px) {
-  .about h2 {
-    font-size: 40px;
-  }
-
-  .about .prompt {
-    margin-top: 10px;
-    font-size: 20px;
-    width: 80%;
-  }
-
-  .skills {
-    text-align: center;
-  }
-  .list {
-    padding: 0;
-  }
-
-  .skills h2 {
-    font-size: 30px;
-  }
-}

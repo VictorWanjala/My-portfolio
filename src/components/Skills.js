@@ -10,6 +10,7 @@ function Skills() {
           <h2 className="card-title">Programming Languages</h2>
           <ul className="list-group">
             <li className="list-group-item">JavaScript</li>
+            <li className="list-group-item">TypeScript</li>
             <li className="list-group-item">Python</li>
             <li className="list-group-item">Kotlin</li>
             <li className="list-group-item">PHP</li>
@@ -18,6 +19,7 @@ function Skills() {
           <h2 className="card-title mt-4">Frameworks</h2>
           <ul className="list-group">
             <li className="list-group-item">ReactJS</li>
+            <li className="list-group-item">Angular</li>
             <li className="list-group-item">Node.js</li>
             <li className="list-group-item">Flask</li>
           </ul>

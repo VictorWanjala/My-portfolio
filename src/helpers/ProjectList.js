@@ -4,6 +4,7 @@ import Pizza from '../assets/pizza.png'
 import tenantpal from '../assets/tenantpal.png'
 import Tamasha from '../assets/Tamasha.png'
 import iRecipe from '../assets/iRecipe.png'
+import jenga from '../assets/jenga.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -55,6 +56,14 @@ export const projectList = [
         technologies: 'ReactJs, Python Flask, CSS, PostgreSQL',
         github: 'https://github.com/VictorWanjala/irecipe',
         liveDemo: 'https://irecipe-fxe2yxh5n-victorwanjala.vercel.app/'
+
+      },
+      {
+        name: 'jenga',
+        image:  jenga,
+        technologies: 'React, Django,Django REST framework CSS, MYSQL,',
+        github: 'https://github.com/VictorWanjala/Jenga',
+        liveDemo: 'https://jenga-eight.vercel.app//'
 
       },
    

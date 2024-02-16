@@ -1,15 +1,12 @@
-import React from 'react'
-import { Twitter } from '@mui/icons-material'
-import { LinkedIn } from '@mui/icons-material'
-import { Email } from '@mui/icons-material'
-import '../styles/Footer.css'
+import React from 'react';
+import { Twitter, LinkedIn, Email } from '@mui/icons-material';
+import '../styles/Footer.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function Footer() {
   return (
-    <div className='footer'>
-        <div className='socialMedia'>
+    <div className='footer' style={{ marginTop: '90px' }}> 
+      <div className='socialMedia'>
         <a href="https://twitter.com/wanjalavictor3" target="_blank" rel="noopener noreferrer">
           <Twitter />
         </a>
@@ -19,11 +16,10 @@ function Footer() {
         <a href="mailto:wanjala94vic@gmail.com">
           <Email />
         </a>
-        </div>
-        <p>&copy; 2023 victorwanjala</p>
-
+      </div>
+      <p>&copy; 2023 victorwanjala</p>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

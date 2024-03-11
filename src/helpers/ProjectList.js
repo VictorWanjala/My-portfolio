@@ -5,6 +5,7 @@ import tenantpal from '../assets/tenantpal.png'
 import Tamasha from '../assets/Tamasha.png'
 import iRecipe from '../assets/iRecipe.png'
 import jenga from '../assets/jenga.png'
+import Tico from '../assets/Tico.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -64,6 +65,14 @@ export const projectList = [
         technologies: 'React, Django,Django REST framework CSS, MYSQL,',
         github: 'https://github.com/VictorWanjala/Jenga',
         liveDemo: 'https://jenga-eight.vercel.app//'
+
+      },
+      {
+        name: 'Tico Fitness Club',
+        image:  Tico,
+        technologies: 'React, Django,Django REST framework CSS, MYSQL,',
+        github: 'https://github.com/VictorWanjala/Tico-gym',
+        liveDemo: 'https://tico-lovggucr5-victorwanjalas-projects.vercel.app/'
 
       },
    
